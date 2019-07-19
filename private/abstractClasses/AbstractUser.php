@@ -11,7 +11,7 @@ namespace abstractClasses;
 
 use interfaces\UserInterface;
 
-class AbstractUser implements UserInterface {
+abstract class AbstractUser implements UserInterface {
 
     public function getUser() : AbstractUser {
         // TODO: Implement getUser() method.
